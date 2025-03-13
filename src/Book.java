@@ -2,6 +2,11 @@ public class Book {
     String author;
     String title;
 
+    public Book(String author, String title) {
+        this.author = author;
+        this.title = title;
+    }
+
     public int hashCode() {
         int result = 17;
         result = 31 * result + author.hashCode();
